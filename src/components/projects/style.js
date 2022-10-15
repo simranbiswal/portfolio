@@ -4,21 +4,24 @@ export const AllProjectsWrapper=styled.div`
 margin: 50px;
 display: flex;
 flex-direction: column;
+width: 90vw;
+border: 2px solid #0b344a;
+padding: 20px;
+background-color:#0f4d92;
 `
 
 export const SingleProjectWrapper = styled.div`
-
-border:1px solid red;
 color: white;
-padding: 10px;
+padding: 20px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 box-sizing:content-box;
 background-color: #0b344a;
-border: 2px solid #0b344a;
+
 border-radius: 5px;
+width: 40vw;
 `
 
 export const Buttons = styled.button`
@@ -34,11 +37,11 @@ background-color: lightgrey;
 :hover{
   background-color: purple;
 }
-
 `
 
+
 export const Title = styled.h1`
-text-align: left;
+text-align: center;
 margin-left: 0%;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-shadow:2px 1px 3px goldenrod;

@@ -13,7 +13,7 @@ const Projects = () => {
       <div>
         <h2>Car Showroom</h2>
       
-      <div>
+      <div style={{display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
           <ProjectImg src={carpic} alt="portfolioicon"/>
           <p>This project holds information regarding different wheelers like two wheelers,three wheelers,four wheelers,six wheelers etc.</p>
       </div>
@@ -24,7 +24,7 @@ const Projects = () => {
 
       </div>
     </SingleProjectWrapper>
-    </AllProjectsWrapper>
+  </AllProjectsWrapper>
   )
 }
 

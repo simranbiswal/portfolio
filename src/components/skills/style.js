@@ -46,9 +46,9 @@ export const Skillheader = styled.h1`
 /* display: flex;
 align-items: center;
 justify-content:center; */
-text-shadow: 2px 2px 8px black;
+text-shadow:2px 1px 2px paleturquoise;;
 color: lightsteelblue;
-text-align: left;
+text-align: center;
 margin-left: 0%;
 `
 
